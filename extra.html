@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extras</title>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1>Extras</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="extras.html" class="active">Extras</a>
+        </nav>
+    </header>
+
+    <main class="container">
+
+        <section id="tallas">
+            <h2>Guías de Tallas</h2>
+
+            <table class="tabla-tallas">
+                <tr><th>Talla</th><th>Pecho (cm)</th><th>Cintura (cm)</th><th>Cadera (cm)</th></tr>
+                <tr><td>S</td><td>86–92</td><td>70–76</td><td>86–92</td></tr>
+                <tr><td>M</td><td>92–98</td><td>76–82</td><td>92–98</td></tr>
+                <tr><td>L</td><td>98–104</td><td>82–88</td><td>98–104</td></tr>
+                <tr><td>XL</td><td>104–110</td><td>88–94</td><td>104–110</td></tr>
+            </table>
+        </section>
+
+        <section id="cuidado">
+            <h2>Cuidado de la Ropa</h2>
+            <ul class="lista-cuidado">
+                <li>• Lavar con agua fría para proteger colores.</li>
+                <li>• No usar cloro ni detergentes abrasivos.</li>
+                <li>• Lavar prendas delicadas en ciclo suave.</li>
+                <li>• Secar a la sombra para evitar desgaste.</li>
+                <li>• Planchar a temperatura baja cuando sea necesario.</li>
+            </ul>
+        </section>
+
+        <section id="reseñas">
+            <h2>Reseñas y Testimonios</h2>
+
+            <form id="formReseñas" class="card">
+                <input type="text" id="nombre" placeholder="Tu nombre">
+                <textarea id="comentario" placeholder="Escribe tu reseña"></textarea>
+                <input type="file" id="foto" accept="image/*">
+                <button type="button" onclick="agregarReseña()">Publicar</button>
+            </form>
+
+            <div id="listaReseñas" class="reseñas"></div>
+        </section>
+
+        <section id="sostenibilidad">
+            <h2>Sostenibilidad y Ética</h2>
+            <p>Nuestros productos están fabricados con prácticas responsables: algodón orgánico, tintes eco-friendly y procesos de bajo impacto ambiental.</p>
+            <p>Promovemos condiciones laborales justas y transparencia total en nuestros proveedores.</p>
+        </section>
+
+        <section id="circular">
+            <h2>Moda Circular</h2>
+            <p>Participamos en iniciativas de reciclaje de prendas usadas, promoviendo su reutilización o transformación.</p>
+            <p>Los clientes pueden entregar ropa antigua para obtener descuentos y reducir el impacto ambiental.</p>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>© 2025 - Sitio Web Interactivo</p>
+    </footer>
+
+    <script src="js/js.js"></script>
+</body>
+</html>
